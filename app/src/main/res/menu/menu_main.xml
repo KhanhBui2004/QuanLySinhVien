@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Mục menu quản lý khoa -->
+    <item android:id="@+id/menu_manage_department"
+        android:title="Quản lý Khoa"
+        android:icon="@drawable/ic_department"
+        app:showAsAction="ifRoom" />
+
+    <!-- Mục menu quản lý sinh viên -->
+    <item android:id="@+id/menu_manage_students"
+        android:title="Quản lý Sinh viên"
+        android:icon="@drawable/ic_students"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_add_student"
+        android:title="Thêm sinh viên"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>
